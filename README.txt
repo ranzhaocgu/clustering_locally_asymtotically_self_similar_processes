@@ -12,6 +12,8 @@ dist_log_ts.m: Calculation the distance between two time series by their covaria
 
 main_simulation_study.m: The main function produces the main conclusions as shown in the simulation studies of cited paper (see citation). The major steps include 1) simulating weakly stationary stochastic processes, 2) constructing offline dataset and performing clustering analysis, and 3) constructing online dataset and performing clustering analysis.
 
+main_simulation_study_fBm.m: Simulation study comparison the fBm vs. mBm using function H with small difference. 
+
 misclassify_rate.m: Calculate the misclassification rate of clustering results. The misclassification rate is defined as the number of mis-clustered observations divided by the total number of observations. 
 
 scale_mean.m: Scaled arbitrate matrix’s rows to specified mean value.
